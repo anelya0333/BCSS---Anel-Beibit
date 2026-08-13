@@ -268,6 +268,6 @@ These checks are implemented and heavily tested, but the project remains a resea
 
 <div align="center">
 
-**Amde with love** 🎀
+**Made with love** 🎀
 
 </div>
