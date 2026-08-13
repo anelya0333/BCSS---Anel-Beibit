@@ -2,7 +2,7 @@
 
 <img src="assets/bcss-night-pink-banner.svg" alt="BCSS Simulator — bounded recourse, protected time" width="100%">
 
-# 🌙 BCSS Simulator
+# BCSS Simulator
 
 **✦ A deterministic C++20 research simulator for online admission with bounded schedule recourse ✦**
 
@@ -36,9 +36,9 @@ incoming dynamic job
         │
         ├── direct contiguous placement ────────────────────────┐
         │                                                       │
-        ├── unused-capacity reclamation (when K >= 1) ─────────┤
+        ├── unused-capacity reclamation (when K >= 1)  ─────────┤
         │                                                       ├── validate
-        └── bounded compensation search (up to K moved jobs) ──┤   dependencies
+        └── bounded compensation search (up to K moved jobs)  ──┤   dependencies
                                                                 │   RTC envelope
                                                                 │   past immutability
                                                                 ▼
@@ -268,6 +268,6 @@ These checks are implemented and heavily tested, but the project remains a resea
 
 <div align="center">
 
-🌙 **Predictable schedules** · 🎀 **Bounded disruption** · ✦ **Verifiable decisions**
+**Amde with love** 🎀
 
 </div>
