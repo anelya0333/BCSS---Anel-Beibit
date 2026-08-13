@@ -1,0 +1,62 @@
+# =============================================================================
+# BCSS public-repository allowlist
+# =============================================================================
+# Everything at the repository root is private/local by default. Only the
+# explicitly unignored project files and directories below can be added by a
+# broad command such as `git add .`.
+#
+# When adding a new public top-level path, add a matching `!/path` rule here.
+# Remember: .gitignore does not conceal files that are already tracked by Git.
+
+/*
+
+# Public project metadata and build configuration
+!/.gitignore
+!/README.md
+!/CMakeLists.txt
+!/CMakePresets.json
+!/assets/
+
+# Public implementation, verification, and research tooling
+!/include/
+!/src/
+!/tests/
+!/benchmarks/
+!/comparisons/
+!/evaluation/
+
+# Generated files that may appear inside an allowlisted directory
+**/__pycache__/
+**/*.py[cod]
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/CMakeFiles/
+**/Testing/
+**/CTestTestfile.cmake
+**/cmake_install.cmake
+**/Makefile
+**/*.o
+**/*.obj
+**/*.a
+**/*.so
+**/*.so.*
+**/*.dylib
+**/*.dll
+**/*.exe
+**/*.out
+**/*.gcda
+**/*.gcno
+**/*.gcov
+
+# Editor, operating-system, and transient files
+**/.DS_Store
+**/Thumbs.db
+**/*~
+**/*.swp
+**/*.swo
+**/.idea/
+**/.vscode/
+**/*.log
+**/*.tmp
+**/*.temp

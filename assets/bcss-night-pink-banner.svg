@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title description">
+  <title id="title">BCSS Simulator</title>
+  <desc id="description">A night-pink banner with a crescent moon, stars, and the words bounded recourse, protected time.</desc>
+
+  <defs>
+    <linearGradient id="night" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080616"/>
+      <stop offset="0.48" stop-color="#1e0a35"/>
+      <stop offset="1" stop-color="#55133f"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="360" rx="34" fill="#12091f"/>
+  <rect width="1280" height="360" rx="34" fill="url(#night)" opacity="0.92"/>
+  <rect x="2" y="2" width="1276" height="356" rx="32" fill="none" stroke="#ff72bd" stroke-opacity="0.34" stroke-width="2"/>
+
+  <ellipse cx="1190" cy="5" rx="245" ry="145" fill="#751650" opacity="0.24"/>
+  <ellipse cx="135" cy="365" rx="260" ry="125" fill="#c026d3" opacity="0.14"/>
+
+  <g fill="#ffd4eb">
+    <circle cx="75" cy="75" r="2.6"/>
+    <circle cx="247" cy="62" r="2" opacity="0.8"/>
+    <circle cx="323" cy="112" r="3" opacity="0.75"/>
+    <circle cx="1138" cy="91" r="2.8"/>
+    <circle cx="1207" cy="151" r="2" opacity="0.72"/>
+    <circle cx="1072" cy="274" r="2.4" opacity="0.85"/>
+    <circle cx="954" cy="76" r="1.8" opacity="0.7"/>
+    <circle cx="1175" cy="293" r="1.8" opacity="0.75"/>
+  </g>
+
+  <g fill="#ff72bd">
+    <path d="M270 141l4.2 10.8 10.8 4.2-10.8 4.2-4.2 10.8-4.2-10.8-10.8-4.2 10.8-4.2z"/>
+    <path d="M1090 168l3.2 8.8 8.8 3.2-8.8 3.2-3.2 8.8-3.2-8.8-8.8-3.2 8.8-3.2z"/>
+    <path d="M1034 111l2.4 6.6 6.6 2.4-6.6 2.4-2.4 6.6-2.4-6.6-6.6-2.4 6.6-2.4z" opacity="0.85"/>
+  </g>
+
+  <circle cx="154" cy="156" r="78" fill="#ff72bd" opacity="0.12"/>
+  <circle cx="154" cy="156" r="62" fill="#ffd4eb"/>
+  <circle cx="184" cy="130" r="62" fill="#11091f"/>
+
+  <g text-anchor="middle" font-family="DejaVu Sans, Inter, ui-sans-serif, system-ui, sans-serif">
+    <text x="650" y="153" fill="#ff8bc7" font-size="92" font-weight="800">BCSS</text>
+    <text x="650" y="205" fill="#fff2f9" font-size="25" font-weight="600">S I M U L A T O R</text>
+  </g>
+
+  <rect x="350" y="246" width="600" height="48" rx="24" fill="#351336" stroke="#ff8bc7" stroke-opacity="0.55"/>
+  <text x="650" y="277" text-anchor="middle" fill="#ffd4eb" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="17" font-weight="500" letter-spacing="1.4">BOUNDED RECOURSE  ·  PROTECTED TIME</text>
+
+  <path d="M104 320c194-38 310-18 449 2 161 24 325 35 625-12" fill="none" stroke="#ff72bd" stroke-width="2" stroke-opacity="0.20"/>
+  <path d="M95 332c194-38 310-18 449 2 161 24 325 35 641-14" fill="none" stroke="#d9a6ff" stroke-width="1" stroke-opacity="0.16"/>
+</svg>
