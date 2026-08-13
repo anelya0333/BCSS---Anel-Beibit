@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="92" viewBox="0 0 720 92" role="img" aria-labelledby="title description">
+  <title id="title">BCSS Simulator</title>
+  <desc id="description">BCSS Simulator in dark rose pink.</desc>
+
+  <g fill="#e83e8c">
+    <path d="M57 17l3.6 9.4L70 30l-9.4 3.6L57 43l-3.6-9.4L44 30l9.4-3.6z" opacity="0.85"/>
+    <path d="M663 49l3 7.8 7.8 3-7.8 3-3 7.8-3-7.8-7.8-3 7.8-3z" opacity="0.85"/>
+  </g>
+
+  <text x="360" y="64" text-anchor="middle" fill="#e83e8c"
+        font-family="DejaVu Sans, Inter, ui-sans-serif, system-ui, sans-serif"
+        font-size="51" font-weight="800">BCSS Simulator</text>
+</svg>
