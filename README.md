@@ -1,7 +1,4 @@
 <div align="center">
-
-<img src="assets/BCSS.png" alt="BCSS Simulator — bounded recourse, protected time" width="100%">
-
 <img src="assets/bcss-title.svg" alt="BCSS Simulator" width="560">
 
 **✦ A deterministic C++20 research simulator for online admission with bounded schedule recourse ✦**
